@@ -129,8 +129,8 @@ a B-Tree is NOT a binary tree. It's similar, but can have more than 2 children p
 
 ## Assignments
 Start with the Data Structures exercise. That is our focus for today. After you are done with that, move on to Bank Accounts, whhich focuses more on writing programs in an object-oriented (OOP) style. 
-- [Data Structures](https://github.com/sierraplatoon/algo-data-structures)
-- [Bank Accounts](https://github.com/sierraplatoon/oop-bank-accounts)
+- [Data Structures](https://github.com/tangoplatoon/algo-data-structures)
+- [Bank Accounts](https://github.com/tangoplatoon/oop-bank-accounts)
 
 
 
