@@ -1,0 +1,23 @@
+<!DOCTYPEhtml>
+{% load static %}
+<html>
+    <head>
+        <title>
+            Pokemon Theme
+        </title>
+        <link rel = 'stylesheet' href = "{% static 'css/main.css' %}" />
+        <script src = "{% static 'js/main.js' %}"></script>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Welcome to BACK-END API's
+            </h1>
+        </header>
+        <main>
+            {% block content %}
+            
+            {% endblock content %}
+        </main>
+    </body>
+</html>

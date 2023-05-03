@@ -1,25 +1,24 @@
 class GuessingGame:
-    pass
 
-    def __init__(self, answer):
-        self.answer = answer
+    def __init__(self, num):
+        self.Answer = num
+        self.Solved = False
 
     def guess(self, user_guess):
         if user_guess > self.answer:
             return "high"
         if user_guess == self.answer:
+            self.Solved = True
             return "correct"
         if user_guess < self.answer:
             return "low"
     
     def solved(self):
-        if self.guess == 'correct':
-            return True
-        else:
-            return False
+        return self.Solved
 
-guess1 = GuessingGame(10)
-print(guess1.guess(10))
-print(guess1.solved())
+game = GuessingGame(10)
+print(game.guess(5))
+print(game.solved())
+
 # print(guess1.solved())
 

@@ -1,0 +1,10 @@
+{% extends 'pages/home.html' %}
+{% block content %}
+
+    <form method = 'POST' action = 'pokemon/'>
+        {% csrf_token %}
+        <input type = 'text' name = 'pokemon' />
+        <input type = 'submit' value = 'look' />
+    </form>
+
+{% endblock content %}

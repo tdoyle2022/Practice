@@ -1,0 +1,8 @@
+{% extends 'pages/home.html' %}
+{% block content %}
+    {% if data %}
+        {% for pokemon in data%}
+            <img src={{pokemon.image}} />
+        {% endfor %}
+    {% endif %}
+{% endblock content %}

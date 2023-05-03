@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('DancingScript-VariableFont_wght.ttf') format("truetype")
+}
+
+.navbar {
+    background-color: rgb(7, 67, 164);
+    color: white
+  }
+
+.movie {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    height: 220px;
+    font-family: 'Dancing Script';
+}
+.sub {
+    display: flex;
+    justify-content: center;
+}
+.car {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    border:6px solid rgb(33, 93, 191, .125)
+}
+.display-1 {
+    font-size: 3rem;
+}
+.d-block {
+    border: 15px solid rgb(33, 93, 191, .125);
+}
+.row {
+    display: flex;
+    justify-content: center;
+}

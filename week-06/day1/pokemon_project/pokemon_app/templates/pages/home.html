@@ -1,0 +1,29 @@
+<!DOCTYPEhtml>
+{% load static %}
+<html>
+    <head>
+        <title>
+            Pokemon Project
+        </title>
+        <link rel = 'stylesheet' href = "{% static 'css/main.css' %}" />
+    </head>
+    <body>
+        <header>
+            <h1>
+                Welcome
+            </h1>
+        </header>
+        
+        <form method='POST' action='test'>
+            {% csrf_token %}
+            <input type='text' name='pokemon'></input>
+            <input type='submit'></input>
+        </form>
+
+        <main>
+            {% block content %}
+            
+            {% endblock content %}
+        </main>
+    </body>
+</html>

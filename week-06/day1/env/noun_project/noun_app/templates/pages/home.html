@@ -1,0 +1,22 @@
+<!DOCTYPEhtml>
+{% load static%}
+<html>
+    <head>
+        <title>
+            Noun Project
+        </title>
+        <link rel = 'stylesheet' href= "{% static 'css/main.css' %}" />
+        <script src ="{static 'js/main.js' %}"></script>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Welcome to BACK-END API'safe
+            </h1>
+        </header>
+        <main>
+            {% block content%}
+            {% endblock content %}
+        </main>
+    <body>
+</html>
